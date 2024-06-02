@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Sharing Web App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Food Sharing Web App</h1>
+    </header>
+    <main>
+        <section id="share-food">
+            <h2>Share Food</h2>
+            <form id="food-form">
+                <label for="food-name">Food Name:</label>
+                <input type="text" id="food-name" required>
+                <label for="description">Description:</label>
+                <textarea id="description" required></textarea>
+                <label for="location">Location:</label>
+                <input type="text" id="location" required>
+                <button type="submit">Share</button>
+            </form>
+        </section>
+        <section id="available-food">
+            <h2>Available Food</h2>
+            <div id="food-list">
+                <!-- Food items will be displayed here -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Food Sharing Web App</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
